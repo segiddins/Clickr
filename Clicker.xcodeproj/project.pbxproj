@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C06610F516580A03003555B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06610F416580A03003555B1 /* UIKit.framework */; };
+		C06610F716580A03003555B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06610F616580A03003555B1 /* Foundation.framework */; };
+		C06610F916580A03003555B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06610F816580A03003555B1 /* CoreGraphics.framework */; };
+		C06610FF16580A03003555B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C06610FD16580A03003555B1 /* InfoPlist.strings */; };
+		C066110116580A03003555B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C066110016580A03003555B1 /* main.m */; };
+		C066110516580A03003555B1 /* SEGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C066110416580A03003555B1 /* SEGAppDelegate.m */; };
+		C066110716580A03003555B1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C066110616580A03003555B1 /* Default.png */; };
+		C066110916580A03003555B1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C066110816580A03003555B1 /* Default@2x.png */; };
+		C066110B16580A03003555B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C066110A16580A03003555B1 /* Default-568h@2x.png */; };
+		C066110E16580A03003555B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C066110C16580A03003555B1 /* MainStoryboard.storyboard */; };
+		C066111116580A03003555B1 /* SEGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C066111016580A03003555B1 /* SEGViewController.m */; };
+		C066111916580A03003555B1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C066111816580A03003555B1 /* SenTestingKit.framework */; };
+		C066111A16580A03003555B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06610F416580A03003555B1 /* UIKit.framework */; };
+		C066111B16580A03003555B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06610F616580A03003555B1 /* Foundation.framework */; };
+		C066112316580A03003555B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C066112116580A03003555B1 /* InfoPlist.strings */; };
+		C066112616580A03003555B1 /* ClickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C066112516580A03003555B1 /* ClickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C066111C16580A03003555B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C06610E716580A03003555B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C06610EF16580A03003555B1;
+			remoteInfo = Clicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C06610F016580A03003555B1 /* Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06610F416580A03003555B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C06610F616580A03003555B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C06610F816580A03003555B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C06610FC16580A03003555B1 /* Clicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clicker-Info.plist"; sourceTree = "<group>"; };
+		C06610FE16580A03003555B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C066110016580A03003555B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C066110216580A03003555B1 /* Clicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clicker-Prefix.pch"; sourceTree = "<group>"; };
+		C066110316580A03003555B1 /* SEGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAppDelegate.h; sourceTree = "<group>"; };
+		C066110416580A03003555B1 /* SEGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAppDelegate.m; sourceTree = "<group>"; };
+		C066110616580A03003555B1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C066110816580A03003555B1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C066110A16580A03003555B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C066110D16580A03003555B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C066110F16580A03003555B1 /* SEGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGViewController.h; sourceTree = "<group>"; };
+		C066111016580A03003555B1 /* SEGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGViewController.m; sourceTree = "<group>"; };
+		C066111716580A03003555B1 /* ClickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C066111816580A03003555B1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C066112016580A03003555B1 /* ClickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickerTests-Info.plist"; sourceTree = "<group>"; };
+		C066112216580A03003555B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C066112416580A03003555B1 /* ClickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickerTests.h; sourceTree = "<group>"; };
+		C066112516580A03003555B1 /* ClickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C06610ED16580A03003555B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06610F516580A03003555B1 /* UIKit.framework in Frameworks */,
+				C06610F716580A03003555B1 /* Foundation.framework in Frameworks */,
+				C06610F916580A03003555B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C066111316580A03003555B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C066111916580A03003555B1 /* SenTestingKit.framework in Frameworks */,
+				C066111A16580A03003555B1 /* UIKit.framework in Frameworks */,
+				C066111B16580A03003555B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C06610E516580A03003555B1 = {
+			isa = PBXGroup;
+			children = (
+				C06610FA16580A03003555B1 /* Clicker */,
+				C066111E16580A03003555B1 /* ClickerTests */,
+				C06610F316580A03003555B1 /* Frameworks */,
+				C06610F116580A03003555B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C06610F116580A03003555B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C06610F016580A03003555B1 /* Clicker.app */,
+				C066111716580A03003555B1 /* ClickerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C06610F316580A03003555B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06610F416580A03003555B1 /* UIKit.framework */,
+				C06610F616580A03003555B1 /* Foundation.framework */,
+				C06610F816580A03003555B1 /* CoreGraphics.framework */,
+				C066111816580A03003555B1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C06610FA16580A03003555B1 /* Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				C066110316580A03003555B1 /* SEGAppDelegate.h */,
+				C066110416580A03003555B1 /* SEGAppDelegate.m */,
+				C066110C16580A03003555B1 /* MainStoryboard.storyboard */,
+				C066110F16580A03003555B1 /* SEGViewController.h */,
+				C066111016580A03003555B1 /* SEGViewController.m */,
+				C06610FB16580A03003555B1 /* Supporting Files */,
+			);
+			path = Clicker;
+			sourceTree = "<group>";
+		};
+		C06610FB16580A03003555B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C06610FC16580A03003555B1 /* Clicker-Info.plist */,
+				C06610FD16580A03003555B1 /* InfoPlist.strings */,
+				C066110016580A03003555B1 /* main.m */,
+				C066110216580A03003555B1 /* Clicker-Prefix.pch */,
+				C066110616580A03003555B1 /* Default.png */,
+				C066110816580A03003555B1 /* Default@2x.png */,
+				C066110A16580A03003555B1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C066111E16580A03003555B1 /* ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C066112416580A03003555B1 /* ClickerTests.h */,
+				C066112516580A03003555B1 /* ClickerTests.m */,
+				C066111F16580A03003555B1 /* Supporting Files */,
+			);
+			path = ClickerTests;
+			sourceTree = "<group>";
+		};
+		C066111F16580A03003555B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C066112016580A03003555B1 /* ClickerTests-Info.plist */,
+				C066112116580A03003555B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C06610EF16580A03003555B1 /* Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C066112916580A03003555B1 /* Build configuration list for PBXNativeTarget "Clicker" */;
+			buildPhases = (
+				C06610EC16580A03003555B1 /* Sources */,
+				C06610ED16580A03003555B1 /* Frameworks */,
+				C06610EE16580A03003555B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clicker;
+			productName = Clicker;
+			productReference = C06610F016580A03003555B1 /* Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C066111616580A03003555B1 /* ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C066112C16580A03003555B1 /* Build configuration list for PBXNativeTarget "ClickerTests" */;
+			buildPhases = (
+				C066111216580A03003555B1 /* Sources */,
+				C066111316580A03003555B1 /* Frameworks */,
+				C066111416580A03003555B1 /* Resources */,
+				C066111516580A03003555B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C066111D16580A03003555B1 /* PBXTargetDependency */,
+			);
+			name = ClickerTests;
+			productName = ClickerTests;
+			productReference = C066111716580A03003555B1 /* ClickerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C06610E716580A03003555B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SEG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Samuel E. Giddins";
+			};
+			buildConfigurationList = C06610EA16580A03003555B1 /* Build configuration list for PBXProject "Clicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C06610E516580A03003555B1;
+			productRefGroup = C06610F116580A03003555B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C06610EF16580A03003555B1 /* Clicker */,
+				C066111616580A03003555B1 /* ClickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C06610EE16580A03003555B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06610FF16580A03003555B1 /* InfoPlist.strings in Resources */,
+				C066110716580A03003555B1 /* Default.png in Resources */,
+				C066110916580A03003555B1 /* Default@2x.png in Resources */,
+				C066110B16580A03003555B1 /* Default-568h@2x.png in Resources */,
+				C066110E16580A03003555B1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C066111416580A03003555B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C066112316580A03003555B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C066111516580A03003555B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C06610EC16580A03003555B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C066110116580A03003555B1 /* main.m in Sources */,
+				C066110516580A03003555B1 /* SEGAppDelegate.m in Sources */,
+				C066111116580A03003555B1 /* SEGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C066111216580A03003555B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C066112616580A03003555B1 /* ClickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C066111D16580A03003555B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C06610EF16580A03003555B1 /* Clicker */;
+			targetProxy = C066111C16580A03003555B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C06610FD16580A03003555B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06610FE16580A03003555B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C066110C16580A03003555B1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C066110D16580A03003555B1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C066112116580A03003555B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C066112216580A03003555B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C066112716580A03003555B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C066112816580A03003555B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C066112A16580A03003555B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clicker/Clicker-Prefix.pch";
+				INFOPLIST_FILE = "Clicker/Clicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C066112B16580A03003555B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clicker/Clicker-Prefix.pch";
+				INFOPLIST_FILE = "Clicker/Clicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C066112D16580A03003555B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clicker.app/Clicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clicker/Clicker-Prefix.pch";
+				INFOPLIST_FILE = "ClickerTests/ClickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C066112E16580A03003555B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clicker.app/Clicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clicker/Clicker-Prefix.pch";
+				INFOPLIST_FILE = "ClickerTests/ClickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C06610EA16580A03003555B1 /* Build configuration list for PBXProject "Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C066112716580A03003555B1 /* Debug */,
+				C066112816580A03003555B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C066112916580A03003555B1 /* Build configuration list for PBXNativeTarget "Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C066112A16580A03003555B1 /* Debug */,
+				C066112B16580A03003555B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C066112C16580A03003555B1 /* Build configuration list for PBXNativeTarget "ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C066112D16580A03003555B1 /* Debug */,
+				C066112E16580A03003555B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C06610E716580A03003555B1 /* Project object */;
+}
