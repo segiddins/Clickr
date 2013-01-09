@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SEGClicker.h"
 
-@interface SEGViewController : UIViewController
+@interface SEGViewController : UIViewController <UIActionSheetDelegate, UIAlertViewDelegate>
 
 @end

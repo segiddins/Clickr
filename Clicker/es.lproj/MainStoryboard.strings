@@ -1,0 +1,78 @@
+
+/* Class = "IBUILabel"; text = "1"; ObjectID = "4NK-M8-YMN"; */
+"4NK-M8-YMN.text" = "1";
+
+/* Class = "IBUILabel"; text = "Walks:"; ObjectID = "6ER-EF-47e"; */
+"6ER-EF-47e.text" = "Caminos:";
+
+/* Class = "IBUILabel"; text = "Date"; ObjectID = "9O4-V9-Dn8"; */
+"9O4-V9-Dn8.text" = "Día";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "J9R-z7-cf3"; */
+"J9R-z7-cf3.text" = "0";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "Jed-he-tz7"; */
+"Jed-he-tz7.text" = "0";
+
+/* Class = "IBUILabel"; text = "Runs:"; ObjectID = "JvA-xn-cgv"; */
+"JvA-xn-cgv.text" = "Carreras:";
+
+/* Class = "IBUISegmentedControl"; L9g-gO-cwn.segmentTitles[0] = "↑"; ObjectID = "L9g-gO-cwn"; */
+"L9g-gO-cwn.segmentTitles[0]" = "↑";
+
+/* Class = "IBUISegmentedControl"; L9g-gO-cwn.segmentTitles[1] = "↓"; ObjectID = "L9g-gO-cwn"; */
+"L9g-gO-cwn.segmentTitles[1]" = "↓";
+
+/* Class = "IBUILabel"; text = "Home"; ObjectID = "N5T-cU-ALP"; */
+"N5T-cU-ALP.text" = "Local";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "NwD-cS-rpW"; */
+"NwD-cS-rpW.text" = "0";
+
+/* Class = "IBUILabel"; text = "Total"; ObjectID = "Pwa-rB-l4V"; */
+"Pwa-rB-l4V.text" = "Total";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "S90-VC-iDm"; */
+"S90-VC-iDm.text" = "0";
+
+/* Class = "IBUILabel"; text = "Balls:"; ObjectID = "Uid-ti-jZr"; */
+"Uid-ti-jZr.text" = "Pelotas:";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "Vid-xj-cNa"; */
+"Vid-xj-cNa.text" = "0";
+
+/* Class = "IBUIButton"; normalTitle = "Pause"; ObjectID = "YHc-5J-olH"; */
+"YHc-5J-olH.normalTitle" = "Pausar";
+
+/* Class = "IBUILabel"; text = "2"; ObjectID = "bBK-hk-vZf"; */
+"bBK-hk-vZf.text" = "2";
+
+/* Class = "IBUILabel"; text = "Outs:"; ObjectID = "cKI-WB-a0x"; */
+"cKI-WB-a0x.text" = "Fueras:";
+
+/* Class = "IBUILabel"; text = "3"; ObjectID = "cMq-IE-UF3"; */
+"cMq-IE-UF3.text" = "3";
+
+/* Class = "IBUILabel"; text = "5"; ObjectID = "efR-DG-Lil"; */
+"efR-DG-Lil.text" = "5";
+
+/* Class = "IBUILabel"; text = "Away"; ObjectID = "gGD-HY-Q6q"; */
+"gGD-HY-Q6q.text" = "Visitante";
+
+/* Class = "IBUILabel"; text = "4"; ObjectID = "gTn-iZ-dls"; */
+"gTn-iZ-dls.text" = "4";
+
+/* Class = "IBUILabel"; text = "Strikes:"; ObjectID = "j2h-qk-EWB"; */
+"j2h-qk-EWB.text" = "Strikes:";
+
+/* Class = "IBUILabel"; text = "6"; ObjectID = "jHg-Va-nhR"; */
+"jHg-Va-nhR.text" = "6";
+
+/* Class = "IBUIButton"; normalTitle = "New Game"; ObjectID = "rH7-0P-9Qe"; */
+"rH7-0P-9Qe.normalTitle" = "Juego Nuevo";
+
+/* Class = "IBUILabel"; text = "Inning:"; ObjectID = "xVd-a7-PYh"; */
+"xVd-a7-PYh.text" = "Entrada:";
+
+/* Class = "IBUILabel"; text = "1"; ObjectID = "zha-Kn-2ru"; */
+"zha-Kn-2ru.text" = "1";

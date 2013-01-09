@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Clicker
+
+  Created by Samuel E. Giddins on 1/2/13.
+  Copyright (c) 2013 Samuel E. Giddins. All rights reserved.
+*/
+"Unpause" = "Despausar";
+"Pause" = "Pausar";
+"Start a new game?" = "Empezar juego nuevo?";
+"Reset Current Game" = "Reajustar Juego Corriente";
+"Yes" = "Sí";
+"New Game Info" = "Información de Juego Nuevo";
+"Field Name:" = "Nombre de Campo:";
+"Next" = "Próximo";
+"Home Team:" = "Equipo Local:";
+"Away Team:" = "Equipo Visitante:";
+"Home" = "Local";
+"Away" = "Visitante";
+"Grade" = "Grado";
+"Grade:" = "Grado:";
+"Done" = "Hecho";
