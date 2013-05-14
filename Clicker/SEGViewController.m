@@ -7,6 +7,7 @@
 //
 
 #import "SEGViewController.h"
+#import <Crashlytics/Crashlytics.h>
 
 @interface SEGViewController ()
 
