@@ -35,6 +35,7 @@
 		C0973DA2165B23CE00740388 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0973D98165B23CE00740388 /* Icon@2x.png */; };
 		C0973DA3165B23CE00740388 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = C0973D99165B23CE00740388 /* iTunesArtwork.png */; };
 		C0973DA4165B23CE00740388 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0973D9A165B23CE00740388 /* iTunesArtwork@2x.png */; };
+		C0C66A1E169F7D1A0073656B /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C66A1D169F7D1A0073656B /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		C0973D98165B23CE00740388 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Icons v1/App Icon [Squared]/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		C0973D99165B23CE00740388 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "Icons v1/App Icon [Squared]/iTunesArtwork.png"; sourceTree = SOURCE_ROOT; };
 		C0973D9A165B23CE00740388 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "Icons v1/App Icon [Squared]/iTunesArtwork@2x.png"; sourceTree = SOURCE_ROOT; };
+		C0C66A1D169F7D1A0073656B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				C06610F516580A03003555B1 /* UIKit.framework in Frameworks */,
 				C06610F716580A03003555B1 /* Foundation.framework in Frameworks */,
 				C06610F916580A03003555B1 /* CoreGraphics.framework in Frameworks */,
+				C0C66A1E169F7D1A0073656B /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +138,7 @@
 		C06610F316580A03003555B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0C66A1D169F7D1A0073656B /* Crashlytics.framework */,
 				C06610F416580A03003555B1 /* UIKit.framework */,
 				C06610F616580A03003555B1 /* Foundation.framework */,
 				C06610F816580A03003555B1 /* CoreGraphics.framework */,
@@ -212,6 +216,7 @@
 				C06610EC16580A03003555B1 /* Sources */,
 				C06610ED16580A03003555B1 /* Frameworks */,
 				C06610EE16580A03003555B1 /* Resources */,
+				C0C66A1B169F7CF80073656B /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -318,6 +323,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		C0C66A1B169F7CF80073656B /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 8c3b5813a27efee90990b671a02c3f2fddda98c2";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -447,6 +466,10 @@
 		C066112A16580A03003555B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Clicker/Clicker-Prefix.pch";
 				INFOPLIST_FILE = "Clicker/Clicker-Info.plist";
@@ -458,6 +481,10 @@
 		C066112B16580A03003555B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Clicker/Clicker-Prefix.pch";
 				INFOPLIST_FILE = "Clicker/Clicker-Info.plist";
