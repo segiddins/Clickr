@@ -7,6 +7,7 @@
 //
 
 #import "SEGAppDelegate.h"
+#import "SEGConstants.h"
 #import <Crashlytics/Crashlytics.h>
 
 @implementation SEGAppDelegate
@@ -14,7 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [Crashlytics startWithAPIKey:***REMOVED***];
+    [Crashlytics startWithAPIKey:SEGClickrCrashlyticsKey];
     return YES;
 }
 							

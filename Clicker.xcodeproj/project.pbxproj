@@ -49,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0269E291A80805B0036E048 /* SEGConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGConstants.h; sourceTree = "<group>"; };
 		C06610F016580A03003555B1 /* Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06610F416580A03003555B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C06610F616580A03003555B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -158,6 +159,7 @@
 				C0847BD9169512460067AD6B /* MainStoryboard.storyboard */,
 				C066113016580BC8003555B1 /* SEGClicker.m */,
 				C06610FB16580A03003555B1 /* Supporting Files */,
+				C0269E291A80805B0036E048 /* SEGConstants.h */,
 			);
 			path = Clicker;
 			sourceTree = "<group>";
@@ -244,7 +246,7 @@
 			name = ClickerTests;
 			productName = ClickerTests;
 			productReference = C066111716580A03003555B1 /* ClickerTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
